@@ -4,7 +4,7 @@
 
 2. **→ Clone the Repository:** After forking, clone the repository to your local machine. You can do this by running:
    ```
-   git clone https://github.com/beingsie/anything.git
+   git clone https://github.com/JasperDeJonghe/Group-Project.git
    ```
 3. **→ Create a New Branch:** Create a new branch for your feature or fix.
    ```
