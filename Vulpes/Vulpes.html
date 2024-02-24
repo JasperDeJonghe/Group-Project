@@ -3,11 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Vulpes.css">
-    <script src="Vulpes.js"></script>
     <title>Vulpes</title>
+    <script>
+        if (window.innerWidth > 340 && screen.width > 900) {
+            let scriptElement = document.createElement('script');
+            scriptElement.src = 'Vulpes-Desktop.js';
+            document.head.appendChild(scriptElement);
+
+            let linkElement = document.createElement('link');
+            linkElement.rel = 'stylesheet';
+            linkElement.href = 'Vulpes-Desktop.css';
+            document.head.appendChild(linkElement);
+    } else if (screen && screen.width < 900) {
+            let scriptElement = document.createElement(`script`);
+            scriptElement.src = 'Vulpes-Mobile.js';
+            document.head.appendChild(scriptElement);
+
+            let linkElement = document.createElement('link');
+            linkElement.rel = 'stylesheet';
+            linkElement.href = 'Vulpes-mobile.css';
+    }
+    </script>
 </head>
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+
+    </main>
 </body>
 </html>
