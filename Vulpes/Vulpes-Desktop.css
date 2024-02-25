@@ -1,0 +1,20 @@
+* {
+    color: #D9D9D9;
+    font-family: 'Koh Santepheap';
+}
+body {
+    background-color: #1E1E1E;
+    width: 100lvw;
+    height: 100lvh;
+}
+h1 > span {
+    color: #B8DAE7;
+}
+h1 {
+    font-size: 90px;
+    width: 39lvw;
+}
+p{
+    width: 39lvw;
+    font-size: 25px;
+}
