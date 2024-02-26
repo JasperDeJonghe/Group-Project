@@ -4,8 +4,10 @@
 }
 body {
     background-color: #1E1E1E;
-    width: 100lvw;
-    height: 100lvh;
+    overflow-y: hidden;
+}
+header{
+    display: flex;
 }
 h1 > span {
     color: #B8DAE7;
@@ -13,11 +15,47 @@ h1 > span {
 h1 {
     font-size: 90px;
     width: 39lvw;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    transform: translateY(-30px);
 }
 p{
     width: 39lvw;
     font-size: 25px;
+    margin-left: 40px;
+    transform: translateY(-30px);
 }
 main {
     display: flex;
+    align-items: center;
+    width: 100svw;
+    
+}
+img {
+    width: 50vw;
+    height: 60vw;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: translateY(-30px);
+}
+#dot-1{
+    width: 35px;
+    height: 35px;
+}
+#dot-2{
+    width: 30px;
+    height: 30px;
+}
+#dot-3{
+    width: 25px;
+    height: 25px;
+}
+#dot-4{
+    width: 20px;
+    height: 20px;
+}
+.dot{
+    background-color: #D9D9D9;
+    border-radius: 50%;
 }

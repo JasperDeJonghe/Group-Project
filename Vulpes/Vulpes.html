@@ -15,15 +15,22 @@
             linkElement.rel = 'stylesheet';
             linkElement.href = 'Vulpes-Desktop.css';
             document.head.appendChild(linkElement);
-    } else if (screen && screen.width < 900) {
+        } else if (screen.width < 900 || window.innerWidth < 340) {
             let scriptElement = document.createElement(`script`);
             scriptElement.src = 'Vulpes-Mobile.js';
             document.head.appendChild(scriptElement);
 
             let linkElement = document.createElement('link');
             linkElement.rel = 'stylesheet';
-            linkElement.href = 'Vulpes-mobile.css';
+            linkElement.href = 'Vulpes-Mobile.css';
+
     }
+    </script>
+    <script>
+        if (!sessionStorage.getItem('reloaded')) {
+            location.reload();
+            sessionStorage.setItem('reloaded', 'true');
+        }
     </script>
 </head>
 <body>
