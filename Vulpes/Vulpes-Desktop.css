@@ -1,6 +1,7 @@
 * {
     color: #D9D9D9;
     font-family: 'Koh Santepheap';
+    box-sizing: border-box;
 }
 body {
     background-color: #1E1E1E;
@@ -42,20 +43,65 @@ img {
 #dot-1{
     width: 35px;
     height: 35px;
+    margin-top: 24px;
+    margin-left: 24px;
 }
 #dot-2{
     width: 30px;
     height: 30px;
+    margin-top: 26.5px;
+    margin-left: 12px;
 }
 #dot-3{
     width: 25px;
     height: 25px;
+    margin-top: 29px;
+    margin-left: 12px;
 }
 #dot-4{
     width: 20px;
     height: 20px;
+    margin-left: 12px;
+    margin-top: 31.5px;
+}
+#wrap-dot-1 > h2{
+    margin-top: 25px;
+    width: 0px;
+    transition: all .5s ease-in-out;
+}
+#wrap-dot-1:hover > h2{
+    width: 70px;
+}
+#wrap-dot-2 > h2{
+    margin-top: 25px;
+    width: 0px;
+    transition: all .5s ease-in-out;
+}
+#wrap-dot-2:hover > h2{
+    width: 130px;
+}
+#wrap-dot-3 > h2{
+    margin-top: 25px;
+    width: 0px;
+    transition: all .5s ease-in-out;
+}
+#wrap-dot-3:hover > h2{
+    width: 70px;
+}
+#wrap-dot-4 > h2{
+    margin-top: 25px;
+    width: 0px;
+    transition: all .5s ease-in-out;
+}
+#wrap-dot-4:hover > h2{
+    width: 62px;
 }
 .dot{
     background-color: #D9D9D9;
     border-radius: 50%;
+}
+.wrap-dot{
+    display: flex;
+    overflow: hidden;
+    gap: 5px;
 }
