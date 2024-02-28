@@ -96,6 +96,31 @@ img {
 #wrap-dot-4:hover > h2{
     width: 62px;
 }
+#images > a{
+    text-decoration: none;
+    background: transparent;
+    font-size: 35px;
+}
+#git{
+    top: 24px;
+    right: 24px;
+    position: absolute;
+}
+#linkedin{
+    top: 73px;
+    right: 24px;
+    position: absolute;
+}
+#insta{
+    top: 122px;
+    right: 24px;
+    position: absolute;
+}
+#x{
+    top: 171px;
+    right: 24px;
+    position: absolute;
+}
 .dot{
     background-color: #D9D9D9;
     border-radius: 50%;
@@ -105,3 +130,4 @@ img {
     overflow: hidden;
     gap: 5px;
 }
+
