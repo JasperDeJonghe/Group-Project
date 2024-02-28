@@ -9,6 +9,7 @@ body {
 }
 header{
     display: flex;
+    height: 10svh;
 }
 h1 > span {
     color: #B8DAE7;
@@ -18,27 +19,26 @@ h1 {
     width: 39lvw;
     margin-left: 40px;
     margin-bottom: 20px;
-    transform: translateY(-30px);
+    transform: translateY(-80px);
 }
 p{
     width: 39lvw;
     font-size: 25px;
     margin-left: 40px;
-    transform: translateY(-30px);
+    transform: translateY(-80px);
 }
 main {
     display: flex;
     align-items: center;
     width: 100svw;
     
+    
 }
 img {
     width: 50vw;
     height: 60vw;
     margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    transform: translateY(-30px);
+    transform: translateY(-80px);
 }
 #dot-1{
     width: 35px;
