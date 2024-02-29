@@ -1,0 +1,135 @@
+* {
+    color: #D9D9D9;
+    font-family: 'Koh Santepheap';
+    box-sizing: border-box;
+}
+body {
+    background-color: #1E1E1E;
+    overflow-y: hidden;
+}
+header{
+    display: flex;
+    height: 10svh;
+}
+h1 > span {
+    color: #B8DAE7;
+}
+h1 {
+    font-size: 90px;
+    width: 39lvw;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    transform: translateY(-80px);
+}
+p{
+    width: 39lvw;
+    font-size: 25px;
+    margin-left: 40px;
+    transform: translateY(-80px);
+}
+main {
+    display: flex;
+    align-items: center;
+    width: 100svw;
+    
+    
+}
+img {
+    width: 50vw;
+    height: 60vw;
+    margin-left: auto;
+    transform: translateY(-80px);
+}
+#dot-1{
+    width: 35px;
+    height: 35px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+#dot-2{
+    width: 30px;
+    height: 30px;
+    margin-top: 26.5px;
+    margin-left: 12px;
+}
+#dot-3{
+    width: 25px;
+    height: 25px;
+    margin-top: 29px;
+    margin-left: 12px;
+}
+#dot-4{
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin-top: 31.5px;
+}
+#wrap-dot-1 > h2{
+    margin-top: 25px;
+    width: 0px;
+    transition: all .5s ease-in-out;
+}
+#wrap-dot-1:hover > h2{
+    width: 70px;
+}
+#wrap-dot-2 > h2{
+    margin-top: 25px;
+    width: 0px;
+    transition: all .5s ease-in-out;
+}
+#wrap-dot-2:hover > h2{
+    width: 130px;
+}
+#wrap-dot-3 > h2{
+    margin-top: 25px;
+    width: 0px;
+    transition: all .5s ease-in-out;
+}
+#wrap-dot-3:hover > h2{
+    width: 70px;
+}
+#wrap-dot-4 > h2{
+    margin-top: 25px;
+    width: 0px;
+    transition: all .5s ease-in-out;
+}
+#wrap-dot-4:hover > h2{
+    width: 62px;
+}
+#images > a{
+    text-decoration: none;
+    background: transparent;
+    font-size: 35px;
+    z-index: 100;
+}
+#git{
+    top: 24px;
+    right: 24px;
+    position: absolute;
+}
+#linkedin{
+    top: 73px;
+    right: 24px;
+    position: absolute;
+}
+#insta{
+    top: 122px;
+    right: 24px;
+    position: absolute;
+}
+#x{
+    top: 171px;
+    right: 24px;
+    position: absolute;
+}
+.dot{
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+.wrap-dot{
+    display: flex;
+    overflow: hidden;
+    gap: 5px;
+    cursor: pointer;
+}
+
