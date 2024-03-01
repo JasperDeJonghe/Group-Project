@@ -17,17 +17,55 @@ main{
     margin-right: 7.03125svw;
     margin-top: 0.8173077svh;
     margin-bottom: 10.8173077svh;
-    height: 78.3653846svh;
-    width: 85.9375;
+    display: flex;
+    flex-direction: column;
+}
+#sec-1{
     display: flex;
     column-gap: 2.34375svw;
-    row-gap: 3.60576923svh; 
+    margin-bottom: 3.60576923svh;
 }
 #img-active{
     width: 57.34375svw;
     height: 58.1730769svh;
-    background-image: url(Group-project/Group-Project/Vulpes/Python-Certificate.png), no-repeat;
+    background-image: url(https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/Python-Certificate.png?raw=true), no-repeat;
+    border-radius: 15px;
 }
+#description-active{
+    width: 26.25svw;
+    height: 58.1730769svh;
+    background-color: rgb(41, 41, 41);
+    border-radius: 15px;
+}
+#sec-2{
+    display: flex;
+    column-gap: 2.34375svw;
+}
+#repro-s{
+    width: 26.171875svw;
+    height: 19.1105769svh;
+    background-color: rgb(41, 41, 41);
+    border-radius: 15px;
+}
+#img-inactive-1{
+    width: 17.578125svw;
+    height: 19.1105769svh;
+    background-image: url(), no-repeat;
+    border-radius: 15px;
+}
+#img-inactive-2{
+    width: 17.578125svw;
+    height: 19.1105769svh;
+    background-image: url(), no-repeat;
+    border-radius: 15px;
+}
+#img-inactive-3{
+    width: 17.578125svw;
+    height: 19.1105769svh;
+    background-image: url(), no-repeat;
+    border-radius: 15px;
+}
+
 #dot-1{
     width: 35px;
     height: 35px;
