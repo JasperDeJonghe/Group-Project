@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vulpes-Certificates</title>
+        <link href='https://fonts.googleapis.com/css?family=Koh Santepheap' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/7ccbe089e6.js" crossorigin="anonymous"></script>
+        <script>
+            if (window.innerWidth > 340 && screen.width > 900) {
+                let scriptElement = document.createElement('script');
+                scriptElement.src = 'Certificates-Desktop.js';
+                document.head.appendChild(scriptElement);
+    
+                let linkElement = document.createElement('link');
+                linkElement.rel = 'stylesheet';
+                linkElement.href = 'Certificates-Desktop.css';
+                document.head.appendChild(linkElement);
+            } else if (screen.width < 900 || window.innerWidth < 340) {
+                let scriptElement = document.createElement(`script`);
+                scriptElement.src = 'Certificates-Mobile.js';
+                document.head.appendChild(scriptElement);
+    
+                let linkElement = document.createElement('link');
+                linkElement.rel = 'stylesheet';
+                linkElement.href = 'Certificates-Mobile.css';
+        }
+        </script>
+    </head>
+    <body>
+        <header>
+            <section id="wrap-dot-1" class="wrap-dot">
+                <div class="dot" id="dot-1"></div>
+                <a href="Vulpes.html">
+                    <h2>
+                        Home
+                    </h2>
+                </a>
+            </section>
+            <section id="wrap-dot-2" class="wrap-dot">
+                <div class="dot" id="dot-2"></div>
+                <a href="Certificates.html">
+                    <h2>
+                        Certificates
+                    </h2>
+                </a>
+            </section>
+            <section id="wrap-dot-3" class="wrap-dot">
+                <div class="dot" id="dot-3" ></div>
+                <a href="">
+                    <h2>
+                        Music
+                    </h2>
+                </a>
+            </section>
+            <section id="wrap-dot-4" class="wrap-dot">
+                <div class="dot" id="dot-4"></div>
+                <a href="">
+                    <h2>
+                        Sport
+                    </h2>
+                </a>
+            </section>
+        </header>
+        <main>
+            <div id="img-active"></div>
+            <div id="description-active"></div>
+            <div id="repro's"></div>
+            <div id="img-inactive-1"></div>
+            <div id="img-inactive-2"></div>
+            <div id="img-inactive-3"></div>
+        </main>
+    </body>
+</html>
