@@ -20,11 +20,19 @@ main{
     display: flex;
     flex-direction: column;
 }
-ul{
-    list-style-type: none;
+#repro-s{
+    display: flex;
+    flex-direction: column;
+    font-size: calc((2.88461538svh + 1.875svw)/2.4);
+    text-align: left;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
-li::before{
-    content: url(https://raw.githubusercontent.com/VulpesLag0pus/Group-Project-Vulpes/ffe6704b46cd8bc842363e702aa58f266e927346/assets/img/bigger-git-icon.svg);
+#repro-s > a{
+    margin: auto;
+}
+#repro > a::before{
+    content: url(https://raw.githubusercontent.com/VulpesLag0pus/Group-Project-Vulpes/71a98087f0342e5c0ebb087223a4a84cac9c7c47/assets/img/even-bigger-git-icon.svg);
 }
 #sec-1{
     display: flex;
