@@ -24,7 +24,7 @@ ul{
     list-style-type: none;
 }
 li::before{
-    content: url();
+    content: url(https://raw.githubusercontent.com/VulpesLag0pus/Group-Project-Vulpes/79c8253a5ca61d241c5b96b4c9fe857d7df5bd2a/assets/img/Git-icon.svg);
 }
 #sec-1{
     display: flex;
