@@ -56,7 +56,7 @@ function onclick_Img_1 () {
                 20-02-2024
             </h4>
             <p>
-                The project build to achieve this certificate was a weather app build with using the OpenWeather API, the bases of the project was build following the project guide on codedex. In addition to that a lot of features where added which includes a air quality indicator, information about the wind speed and direction, feels like temperature and humidity percentage. Besides that the forecast data for the upcoming 4 days was added, onclick on one of the days the air quality indicator, information about the wind speed and direction, feels like temperature and humidity percentage change to the forecast of that day.
+                The project build to achieve this certificate was a weather app build using the OpenWeather API, the bases of the project was build following the project guide on codedex. In addition to that a lot of features where added which includes a air quality indicator, information about the wind speed and direction, feels like temperature and humidity percentage. Besides that the forecast data for the upcoming 4 days was added, onclick on one of the days the air quality indicator, information about the wind speed and direction, feels like temperature and humidity percentage change to the forecast of that day.
             </p>
             <a href="https://www.credential.net/32629fd2-73b1-4839-8870-47628f911722">
                 <h2>
@@ -178,7 +178,7 @@ function onclick_Img_2 () {
                 20-02-2024
             </h4>
             <p>
-                The project build to achieve this certificate was a weather app build with using the OpenWeather API, the bases of the project was build following the project guide on codedex. In addition to that a lot of features where added which includes a air quality indicator, information about the wind speed and direction, feels like temperature and humidity percentage. Besides that the forecast data for the upcoming 4 days was added, onclick on one of the days the air quality indicator, information about the wind speed and direction, feels like temperature and humidity percentage change to the forecast of that day.
+                The project build to achieve this certificate was a weather app build using the OpenWeather API, the bases of the project was build following the project guide on codedex. In addition to that a lot of features where added which includes a air quality indicator, information about the wind speed and direction, feels like temperature and humidity percentage. Besides that the forecast data for the upcoming 4 days was added, onclick on one of the days the air quality indicator, information about the wind speed and direction, feels like temperature and humidity percentage change to the forecast of that day.
             </p>
             <a href="https://www.credential.net/32629fd2-73b1-4839-8870-47628f911722">
                 <h2>
@@ -300,7 +300,7 @@ function onclick_Img_3 () {
                 20-02-2024
             </h4>
             <p>
-                The project build to achieve this certificate was a weather app build with using the OpenWeather API, the bases of the project was build following the project guide on codedex. In addition to that a lot of features where added which includes a air quality indicator, information about the wind speed and direction, feels like temperature and humidity percentage. Besides that the forecast data for the upcoming 4 days was added, onclick on one of the days the air quality indicator, information about the wind speed and direction, feels like temperature and humidity percentage change to the forecast of that day.
+                The project build to achieve this certificate was a weather app build using the OpenWeather API, the bases of the project was build following the project guide on codedex. In addition to that a lot of features where added which includes a air quality indicator, information about the wind speed and direction, feels like temperature and humidity percentage. Besides that the forecast data for the upcoming 4 days was added, onclick on one of the days the air quality indicator, information about the wind speed and direction, feels like temperature and humidity percentage change to the forecast of that day.
             </p>
             <a href="https://www.credential.net/32629fd2-73b1-4839-8870-47628f911722">
                 <h2>
