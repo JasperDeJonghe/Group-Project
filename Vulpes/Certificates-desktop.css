@@ -1,0 +1,189 @@
+* {
+    color: #D9D9D9;
+    font-family: 'Koh Santepheap';
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: #1E1E1E;
+    overflow-y: hidden;
+}
+header{
+    display: flex;
+    height: 10svh;
+}
+main{
+    margin-left: 7.03125svw;
+    margin-right: 7.03125svw;
+    margin-top: 0.8173077svh;
+    margin-bottom: 10.8173077svh;
+    display: flex;
+    flex-direction: column;
+}
+#repro-s{
+    display: flex;
+    flex-direction: column;
+    font-size: calc((2.88461538svh + 1.875svw)/2.4);
+    text-align: left;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#repro-s > a{
+    margin: auto;
+}
+#repro > a::before{
+    content: url(https://raw.githubusercontent.com/VulpesLag0pus/Group-Project-Vulpes/71a98087f0342e5c0ebb087223a4a84cac9c7c47/assets/img/even-bigger-git-icon.svg);
+}
+#sec-1{
+    display: flex;
+    column-gap: 2.34375svw;
+    margin-bottom: 3.60576923svh;
+}
+#img-active{
+    width: 57.34375svw;
+    height: 58.1730769svh;
+    border-radius: 15px;
+    transition: opacity .5s;
+}
+#description-active{
+    width: 26.25svw;
+    height: 58.1730769svh;
+    background-color: rgb(41, 41, 41);
+    border-radius: 15px;
+    text-align: center;
+    padding-left: 1.171875svw;
+    padding-right: 1.171875svw;
+    display: flex;
+    flex-direction: column;
+    transition: opacity .5s;
+}
+#description-active > h3{
+    margin-bottom: 0px;
+    font-size: calc((3.36538462svh + 2.1875svw)/2.2);
+    transition: opacity .5s;
+}
+#description-active > h4{
+    margin: 0px;
+    color: #858585;
+    font-size: calc((1.171875svw + 1.80288462svh)/2.2);
+    transition: opacity .5s;
+}
+#description-active > p{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: calc((1.25svw + 1.92307692svh)/2.2);
+    transition: opacity .5s;
+}
+#description-active > a{
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    height: 6.73076923svh;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: 1.80288462svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#description-active > a > h2{
+    font-size: calc((2.8125svw + 4.32692308svh)/2.3);
+}
+#sec-2{
+    display: flex;
+    column-gap: 2.34375svw;
+}
+#repro-s{
+    width: 26.171875svw;
+    height: 19.1105769svh;
+    background-color: rgb(41, 41, 41);
+    border-radius: 15px;
+    transition: opacity .5s;
+}
+#img-inactive-1{
+    width: 17.578125svw;
+    height: 19.1105769svh;
+    border-radius: 15px;
+    transition: opacity .5s;
+    cursor: pointer;
+}
+#img-inactive-2{
+    width: 17.578125svw;
+    height: 19.1105769svh;
+    border-radius: 15px;
+    transition: opacity .5s;
+    cursor: pointer;
+}
+#img-inactive-3{
+    width: 17.578125svw;
+    height: 19.1105769svh;
+    border-radius: 15px;
+    transition: opacity .5s;
+    cursor: pointer;
+}
+
+#dot-1{
+    width: 35px;
+    height: 35px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+#dot-2{
+    width: 30px;
+    height: 30px;
+    margin-top: 26.5px;
+    margin-left: 12px;
+}
+#dot-3{
+    width: 25px;
+    height: 25px;
+    margin-top: 29px;
+    margin-left: 12px;
+}
+#dot-4{
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin-top: 31.5px;
+}
+#wrap-dot-1 > a{
+    margin-top: 6px;
+    width: 0px;
+    transition: all .5s ease-in-out;
+}
+#wrap-dot-1:hover > a{
+    width: 70px;
+}
+#wrap-dot-2 > a{
+    margin-top: 6px;
+    width: 0px;
+    transition: all .5s ease-in-out;
+}
+#wrap-dot-2:hover > a{
+    width: 130px;
+}
+#wrap-dot-3 > a{
+    margin-top: 6px;
+    width: 0px;
+    transition: all .5s ease-in-out;
+}
+#wrap-dot-3:hover > a{
+    width: 70px;
+}
+#wrap-dot-4 > a{
+    margin-top: 6px;
+    width: 0px;
+    transition: all .5s ease-in-out;
+}
+#wrap-dot-4:hover > a{
+    width: 62px;
+}
+.dot{
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+.wrap-dot{
+    display: flex;
+    overflow: hidden;
+    gap: 5px;
+    cursor: pointer;
+}

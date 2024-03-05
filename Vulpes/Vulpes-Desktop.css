@@ -2,6 +2,7 @@
     color: #D9D9D9;
     font-family: 'Koh Santepheap';
     box-sizing: border-box;
+    text-decoration: none;
 }
 body {
     background-color: #1E1E1E;
@@ -31,8 +32,6 @@ main {
     display: flex;
     align-items: center;
     width: 100svw;
-    
-    
 }
 img {
     width: 50vw;
@@ -64,36 +63,36 @@ img {
     margin-left: 12px;
     margin-top: 31.5px;
 }
-#wrap-dot-1 > h2{
-    margin-top: 25px;
+#wrap-dot-1 > a{
+    margin-top: 6px;
     width: 0px;
     transition: all .5s ease-in-out;
 }
-#wrap-dot-1:hover > h2{
+#wrap-dot-1:hover > a{
     width: 70px;
 }
-#wrap-dot-2 > h2{
-    margin-top: 25px;
+#wrap-dot-2 > a{
+    margin-top: 6px;
     width: 0px;
     transition: all .5s ease-in-out;
 }
-#wrap-dot-2:hover > h2{
+#wrap-dot-2:hover > a{
     width: 130px;
 }
-#wrap-dot-3 > h2{
-    margin-top: 25px;
+#wrap-dot-3 > a{
+    margin-top: 6px;
     width: 0px;
     transition: all .5s ease-in-out;
 }
-#wrap-dot-3:hover > h2{
+#wrap-dot-3:hover > a{
     width: 70px;
 }
-#wrap-dot-4 > h2{
-    margin-top: 25px;
+#wrap-dot-4 > a{
+    margin-top: 6px;
     width: 0px;
     transition: all .5s ease-in-out;
 }
-#wrap-dot-4:hover > h2{
+#wrap-dot-4:hover > a{
     width: 62px;
 }
 #images > a{
