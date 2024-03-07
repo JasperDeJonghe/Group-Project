@@ -15,9 +15,6 @@ header{
 h1 > span {
     color: #B8DAE7;
 }
-h2{
-    padding-top: 6px;
-}
 h1 {
     font-size: 90px;
     width: 40lvw;
@@ -41,9 +38,6 @@ img {
     height: 60vw;
     margin-left: auto;
     transform: translateY(-80px);
-}
-a{
-    display: flex;
 }
 #dot-1{
     width: 35px;
@@ -71,23 +65,35 @@ a{
 }
 #wrap-dot-1 > a{
     margin-top: 6px;
-    width: auto;
+    width: 0px;
     transition: all .5s ease-in-out;
+}
+#wrap-dot-1:hover > a{
+    width: 70px;
 }
 #wrap-dot-2 > a{
     margin-top: 6px;
-    width: auto;
+    width: 0px;
     transition: all .5s ease-in-out;
+}
+#wrap-dot-2:hover > a{
+    width: 130px;
 }
 #wrap-dot-3 > a{
     margin-top: 6px;
-    width: auto;
+    width: 0px;
     transition: all .5s ease-in-out;
+}
+#wrap-dot-3:hover > a{
+    width: 70px;
 }
 #wrap-dot-4 > a{
     margin-top: 6px;
-    width: auto;
+    width: 0px;
     transition: all .5s ease-in-out;
+}
+#wrap-dot-4:hover > a{
+    width: 62px;
 }
 #images > a{
     text-decoration: none;
@@ -140,40 +146,4 @@ a{
     overflow: hidden;
     gap: 5px;
     cursor: pointer;
-}
-.cursor{
-    display: inline-block;
-    height: 28px;
-    width: 2px;
-    margin-left: 4px;
-    background-color: #D9D9D9;
-    animation: blink .6s linear infinite alternate;
-    margin-top: 28px;
-}
-#typing-cursor-0{
-    display: none;
-}
-#typing-cursor-1{
-    display: none;
-}
-#typing-cursor-2{
-    display: none;
-}
-#typing-cursor-3{
-    display: none;
-}
-#wrap_dot_1:hover > a > span{
-    border-radius: 0.1px;
-}
-#wrap_dot_2:hover > a > span{
-    border-radius: 0.1px;
-}
-#wrap_dot_3:hover > a > span{
-    border-radius: 0.1px;
-}
-#wrap_dot_4:hover > a > span{
-    border-radius: 0.1px;
-}
-#images{
-    border-radius: 0.1px;
 }
