@@ -31,9 +31,6 @@ main{
 #repro-s > a{
     margin: auto;
 }
-#repro > a::before{
-    content: url(https://raw.githubusercontent.com/VulpesLag0pus/Group-Project-Vulpes/71a98087f0342e5c0ebb087223a4a84cac9c7c47/assets/img/even-bigger-git-icon.svg);
-}
 #sec-1{
     display: flex;
     column-gap: 2.34375svw;
@@ -147,35 +144,23 @@ main{
 }
 #wrap-dot-1 > a{
     margin-top: 6px;
-    width: 0px;
+    width: auto;
     transition: all .5s ease-in-out;
-}
-#wrap-dot-1:hover > a{
-    width: 70px;
 }
 #wrap-dot-2 > a{
     margin-top: 6px;
-    width: 0px;
+    width: auto;
     transition: all .5s ease-in-out;
-}
-#wrap-dot-2:hover > a{
-    width: 130px;
 }
 #wrap-dot-3 > a{
     margin-top: 6px;
-    width: 0px;
+    width: auto;
     transition: all .5s ease-in-out;
-}
-#wrap-dot-3:hover > a{
-    width: 70px;
 }
 #wrap-dot-4 > a{
     margin-top: 6px;
-    width: 0px;
+    width: auto;
     transition: all .5s ease-in-out;
-}
-#wrap-dot-4:hover > a{
-    width: 62px;
 }
 .dot{
     background-color: #D9D9D9;
@@ -186,4 +171,58 @@ main{
     overflow: hidden;
     gap: 5px;
     cursor: pointer;
+}
+#typing-cursor{
+    display: inline-block;
+    width: 4px;
+    height: 90px;
+    background-color: #D9D9D9;
+    margin-left: 8px;
+    animation: blink .6s linear infinite alternate;
+    padding-top: 8px;
+}
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+a{
+    display: flex;
+}
+.cursor{
+    display: inline-block;
+    height: 28px;
+    width: 2px;
+    margin-left: 4px;
+    background-color: #D9D9D9;
+    animation: blink .6s linear infinite alternate;
+    margin-top: 28px;
+}
+#typing-cursor-0{
+    display: none;
+}
+#typing-cursor-1{
+    display: none;
+}
+#typing-cursor-2{
+    display: none;
+}
+#typing-cursor-3{
+    display: none;
+}
+#wrap_dot_1:hover > a > span{
+    border-radius: 0.1px;
+}
+#wrap_dot_2:hover > a > span{
+    border-radius: 0.1px;
+}
+#wrap_dot_3:hover > a > span{
+    border-radius: 0.1px;
+}
+#wrap_dot_4:hover > a > span{
+    border-radius: 0.1px;
+}
+h2{
+    padding-top: 6px;
 }
