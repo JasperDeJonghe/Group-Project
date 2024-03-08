@@ -7,6 +7,9 @@
 body {
     background-color: #1E1E1E;
     overflow-y: hidden;
+    background-image: url(https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/Background-img.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: 100svw;
 }
 header{
     display: flex;
@@ -77,4 +80,15 @@ header{
     overflow: hidden;
     gap: 5px;
     cursor: pointer;
+}
+h1{
+    font-size: calc((7.03125svw + 10.8173077svh)/2.2);
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+p{
+    width: 40svw;
+    height: auto;
+    margin-left: 35px;
+    font-size: calc((1.953125svw + 3.00480769svh)/2);
 }

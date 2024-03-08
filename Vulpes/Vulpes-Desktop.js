@@ -14,7 +14,7 @@ async function typeSentence(sentence, eleRef, delay) {
     return new Promise(resolve => setTimeout(resolve, ms))
   }
 
-async function deleteSentence(eleRef, delay, cursor) {
+async function deleteSentence(eleRef, delay) {
     const sentence = document.getElementById(eleRef).textContent;
     const letters = sentence.split("");
     let i = 0;
