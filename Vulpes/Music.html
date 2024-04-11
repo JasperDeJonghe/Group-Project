@@ -6,27 +6,8 @@
         <title>Vulpes Music</title>
         <link href='https://fonts.googleapis.com/css?family=Koh Santepheap' rel='stylesheet'>
         <script src="https://kit.fontawesome.com/7ccbe089e6.js" crossorigin="anonymous"></script>
-        <script>
-            if (window.innerWidth > 340 && screen.width > 900) {
-                let scriptElement = document.createElement('script');
-                scriptElement.src = 'Music-Desktop.js';
-                document.head.appendChild(scriptElement);
-    
-                let linkElement = document.createElement('link');
-                linkElement.rel = 'stylesheet';
-                linkElement.href = 'Music-Desktop.css';
-                document.head.appendChild(linkElement);
-            } else if (screen.width < 900 || window.innerWidth < 340) {
-                let scriptElement = document.createElement(`script`);
-                scriptElement.src = 'Music-Mobile.js';
-                document.head.appendChild(scriptElement);
-    
-                let linkElement = document.createElement('link');
-                linkElement.rel = 'stylesheet';
-                linkElement.href = 'Music-Mobile.css';
-    
-        }
-        </script>
+        <script src="Music-Desktop.js"></script>
+        <link rel="stylesheet" href="Music-Desktop.css">
     </head>
     <body>
         <header>
@@ -56,7 +37,7 @@
             </section>
             <section id="wrap-dot-4" class="wrap-dot">
                 <div class="dot" id="dot-4"></div>
-                <a href="">
+                <a href="Sport.HTML">
                     <h2>
                         Sport
                     </h2>
@@ -70,6 +51,8 @@
             <p>
                 Some of my favourite artists are NF, Imagine dragons, Blacklite district and Blackbear. According to Spotify my favourite genre is Pop, but I just listen to a lot of different things. If you want to listen to some of my favourite music you can do it right here on this page.
             </p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sQffkfTvIbUe7NrBeAHmu?theme=0" height="152" frameBorder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <img src="https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/Backgroudn-img.png?raw=true" alt="">
         </main>
     </body>
 </html>

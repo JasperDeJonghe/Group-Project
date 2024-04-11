@@ -6,18 +6,25 @@ function onclick_Img_1 () {
     let text = document.querySelector('p')
     sessionStorage.setItem(`src_inac`, `${clicked.getAttribute('src')}`)
     sessionStorage.setItem(`src_ac`, `${change.getAttribute('src')}`)
+    clicked.style.transform = "scale(0.3)"
+    change.style.transform = 'scale(0.3)'
     clicked.style.opacity = '0%'
     change.style.opacity = '0%'
     setTimeout(function(){
         clicked.src = sessionStorage.getItem(`src_ac`)
         change.src = sessionStorage.getItem(`src_inac`)
         sessionStorage.clear(`src_inac`, `src_ac`)
+        clicked.style.transform = 'scale(1)'
+        change.style.transform = 'scale(1)'
         clicked.style.opacity = '100%'
         change.style.opacity = '100%'
     },600)
 
 
     if (clicked.getAttribute('src') == 'https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/Python-Certificate.png?raw=true'){
+        title.style.transform = "scale(0.3)"
+        date.style.transform = 'scale(0.3)'
+        text.style.transform = 'scale(0.3)'
         title.style.opacity = '0%'
         date.style.opacity = '0%'
         text.style.opacity = '0%'
@@ -41,9 +48,15 @@ function onclick_Img_1 () {
             title.style.opacity = '100%'
             date.style.opacity = '100%'
             text.style.opacity = '100%'
+            title.style.transform = "scale(1)"
+            date.style.transform = 'scale(1)'
+            text.style.transform = 'scale(1)'
         }, 600)
 
     }else if (clicked.getAttribute('src') == `https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/JS-certificate.png?raw=true`){
+        title.style.transform = "scale(0.3)"
+        date.style.transform = 'scale(0.3)'
+        text.style.transform = 'scale(0.3)'
         title.style.opacity = '0%'
         date.style.opacity = '0%'
         text.style.opacity = '0%'
@@ -67,8 +80,14 @@ function onclick_Img_1 () {
             title.style.opacity = '100%'
             date.style.opacity = '100%'
             text.style.opacity = '100%'
+            title.style.transform = "scale(1)"
+            date.style.transform = 'scale(1)'
+            text.style.transform = 'scale(1)'
         },600)
     }else if (clicked.getAttribute('src') == `https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/CSS-certificate.png?raw=true`){
+        title.style.transform = "scale(0.3)"
+        date.style.transform = 'scale(0.3)'
+        text.style.transform = 'scale(0.3)'
         title.style.opacity = '0%'
         date.style.opacity = '0%'
         text.style.opacity = '0%'
@@ -92,8 +111,14 @@ function onclick_Img_1 () {
             title.style.opacity = '100%'
             date.style.opacity = '100%'
             text.style.opacity = '100%'
+            title.style.transform = "scale(1)"
+            date.style.transform = 'scale(1)'
+            text.style.transform = 'scale(1)'
         },600)
     }else if (clicked.getAttribute('src') == `https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/HTML-certificate.png?raw=true`){
+        title.style.transform = "scale(0.3)"
+        date.style.transform = 'scale(0.3)'
+        text.style.transform = 'scale(0.3)'
         title.style.opacity = '0%'
         date.style.opacity = '0%'
         text.style.opacity = '0%'
@@ -117,7 +142,13 @@ function onclick_Img_1 () {
             title.style.opacity = '100%'
             date.style.opacity = '100%'
             text.style.opacity = '100%'
+            title.style.transform = "scale(1)"
+            date.style.transform = 'scale(1)'
+            text.style.transform = 'scale(1)'
         },600)
+    }
+    if(change.getAttribute('src') == 'null' || clicked.getAttribute('src') == 'null'){
+        window.location.reload();
     }
 }
 function onclick_Img_2 () {
@@ -128,18 +159,25 @@ function onclick_Img_2 () {
     let text = document.querySelector('p')
     sessionStorage.setItem(`src_inac`, `${clicked.getAttribute('src')}`)
     sessionStorage.setItem(`src_ac`, `${change.getAttribute('src')}`)
+    clicked.style.transform = "scale(0.3)"
+    change.style.transform = 'scale(0.3)'
     clicked.style.opacity = '0%'
     change.style.opacity = '0%'
     setTimeout(function(){
         clicked.src = sessionStorage.getItem(`src_ac`)
         change.src = sessionStorage.getItem(`src_inac`)
         sessionStorage.clear(`src_inac`, `src_ac`)
+        clicked.style.transform = 'scale(1)'
+        change.style.transform = 'scale(1)'
         clicked.style.opacity = '100%'
         change.style.opacity = '100%'
     },600)
 
 
     if (clicked.getAttribute('src') == 'https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/Python-Certificate.png?raw=true'){
+        title.style.transform = "scale(0.3)"
+        date.style.transform = 'scale(0.3)'
+        text.style.transform = 'scale(0.3)'
         title.style.opacity = '0%'
         date.style.opacity = '0%'
         text.style.opacity = '0%'
@@ -163,9 +201,15 @@ function onclick_Img_2 () {
             title.style.opacity = '100%'
             date.style.opacity = '100%'
             text.style.opacity = '100%'
+            title.style.transform = "scale(1)"
+            date.style.transform = 'scale(1)'
+            text.style.transform = 'scale(1)'
         }, 600)
 
     }else if (clicked.getAttribute('src') == `https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/JS-certificate.png?raw=true`){
+        title.style.transform = "scale(0.3)"
+        date.style.transform = 'scale(0.3)'
+        text.style.transform = 'scale(0.3)'
         title.style.opacity = '0%'
         date.style.opacity = '0%'
         text.style.opacity = '0%'
@@ -189,8 +233,14 @@ function onclick_Img_2 () {
             title.style.opacity = '100%'
             date.style.opacity = '100%'
             text.style.opacity = '100%'
+            title.style.transform = "scale(1)"
+            date.style.transform = 'scale(1)'
+            text.style.transform = 'scale(1)'
         },600)
     }else if (clicked.getAttribute('src') == `https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/CSS-certificate.png?raw=true`){
+        title.style.transform = "scale(0.3)"
+        date.style.transform = 'scale(0.3)'
+        text.style.transform = 'scale(0.3)'
         title.style.opacity = '0%'
         date.style.opacity = '0%'
         text.style.opacity = '0%'
@@ -214,8 +264,14 @@ function onclick_Img_2 () {
             title.style.opacity = '100%'
             date.style.opacity = '100%'
             text.style.opacity = '100%'
+            title.style.transform = "scale(1)"
+            date.style.transform = 'scale(1)'
+            text.style.transform = 'scale(1)'
         },600)
     }else if (clicked.getAttribute('src') == `https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/HTML-certificate.png?raw=true`){
+        title.style.transform = "scale(0.3)"
+        date.style.transform = 'scale(0.3)'
+        text.style.transform = 'scale(0.3)'
         title.style.opacity = '0%'
         date.style.opacity = '0%'
         text.style.opacity = '0%'
@@ -239,7 +295,13 @@ function onclick_Img_2 () {
             title.style.opacity = '100%'
             date.style.opacity = '100%'
             text.style.opacity = '100%'
+            title.style.transform = "scale(1)"
+            date.style.transform = 'scale(1)'
+            text.style.transform = 'scale(1)'
         },600)
+    }
+    if(change.getAttribute('src') == 'null' || clicked.getAttribute('src') == 'null'){
+        window.location.reload();
     }
 }
 function onclick_Img_3 () {
@@ -250,18 +312,25 @@ function onclick_Img_3 () {
     let text = document.querySelector('p')
     sessionStorage.setItem(`src_inac`, `${clicked.getAttribute('src')}`)
     sessionStorage.setItem(`src_ac`, `${change.getAttribute('src')}`)
+    clicked.style.transform = "scale(0.3)"
+    change.style.transform = 'scale(0.3)'
     clicked.style.opacity = '0%'
     change.style.opacity = '0%'
     setTimeout(function(){
         clicked.src = sessionStorage.getItem(`src_ac`)
         change.src = sessionStorage.getItem(`src_inac`)
         sessionStorage.clear(`src_inac`, `src_ac`)
+        clicked.style.transform = 'scale(1)'
+        change.style.transform = 'scale(1)'
         clicked.style.opacity = '100%'
         change.style.opacity = '100%'
     },600)
 
 
     if (clicked.getAttribute('src') == 'https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/Python-Certificate.png?raw=true'){
+        title.style.transform = "scale(0.3)"
+        date.style.transform = 'scale(0.3)'
+        text.style.transform = 'scale(0.3)'
         title.style.opacity = '0%'
         date.style.opacity = '0%'
         text.style.opacity = '0%'
@@ -285,9 +354,15 @@ function onclick_Img_3 () {
             title.style.opacity = '100%'
             date.style.opacity = '100%'
             text.style.opacity = '100%'
+            title.style.transform = "scale(1)"
+            date.style.transform = 'scale(1)'
+            text.style.transform = 'scale(1)'
         }, 600)
 
     }else if (clicked.getAttribute('src') == `https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/JS-certificate.png?raw=true`){
+        title.style.transform = "scale(0.3)"
+        date.style.transform = 'scale(0.3)'
+        text.style.transform = 'scale(0.3)'
         title.style.opacity = '0%'
         date.style.opacity = '0%'
         text.style.opacity = '0%'
@@ -311,8 +386,14 @@ function onclick_Img_3 () {
             title.style.opacity = '100%'
             date.style.opacity = '100%'
             text.style.opacity = '100%'
+            title.style.transform = "scale(1)"
+            date.style.transform = 'scale(1)'
+            text.style.transform = 'scale(1)'
         },600)
     }else if (clicked.getAttribute('src') == `https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/CSS-certificate.png?raw=true`){
+        title.style.transform = "scale(0.3)"
+        date.style.transform = 'scale(0.3)'
+        text.style.transform = 'scale(0.3)'
         title.style.opacity = '0%'
         date.style.opacity = '0%'
         text.style.opacity = '0%'
@@ -336,6 +417,9 @@ function onclick_Img_3 () {
             title.style.opacity = '100%'
             date.style.opacity = '100%'
             text.style.opacity = '100%'
+            title.style.transform = "scale(1)"
+            date.style.transform = 'scale(1)'
+            text.style.transform = 'scale(1)'
         },600)
     }else if (clicked.getAttribute('src') == `https://github.com/VulpesLag0pus/Group-Project-Vulpes/blob/main/Vulpes/HTML-certificate.png?raw=true`){
         title.style.opacity = '0%'
@@ -361,21 +445,31 @@ function onclick_Img_3 () {
             title.style.opacity = '100%'
             date.style.opacity = '100%'
             text.style.opacity = '100%'
+            title.style.transform = "scale(1)"
+            date.style.transform = 'scale(1)'
+            text.style.transform = 'scale(1)'
         },600)
+    }
+    if(change.getAttribute('src') == 'null' || clicked.getAttribute('src') == 'null'){
+        window.location.reload();
     }
 }
 function throttle(func, limit) {
-    let throttling = false;
-    return function() {
-        if (!throttling) {
-            throttling = true;
-            func.apply();
-            setTimeout(() => {
-                throttling = false;
-            }, limit);
-        }
+    let inProgress = false;
+    let timeoutId = null;
+    return () => {
+      if (inProgress) return;
+      inProgress = true;
+      func();
+  
+      timeoutId = setTimeout(() => {
+        inProgress = false;
+      }, limit);
     };
-}
+  }
+  
+  
 document.getElementById(`img-inactive-1`).addEventListener(`click`, throttle(function() {onclick_Img_1()}, 1100))
 document.getElementById(`img-inactive-2`).addEventListener(`click`, throttle(function() {onclick_Img_2()}, 1100))
 document.getElementById(`img-inactive-3`).addEventListener(`click`, throttle(function() {onclick_Img_3()}, 1100))
+

@@ -6,11 +6,13 @@
 }
 body {
     background-color: #1E1E1E;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 header{
     display: flex;
     height: 10svh;
+    position: absolute;
+    z-index: 100;
 }
 #dot-1{
     width: 35px;
@@ -78,37 +80,54 @@ header{
     gap: 5px;
     cursor: pointer;
 }
-h1{
-    font-size: calc((7.03125svw + 10.8173077svh)/2);
-    margin-left: 35px;
-    margin-bottom: 0px;
-    margin-top: 30px
+.sport-img{
+    filter: brightness(100);
+    width: 60svw;
+    height: 90svh;
+    margin-bottom: 10svh;
+}
+.sport-des{
+    width: 30svw;
+    margin-left: 10svw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.main-sec{
+    display: flex;
+    width: 100svw;
+    height: 100%;
+    transform: translateY(-5%);
+}
+.wrapper{
+    height: 100svh;
+    width: 100svw;
 }
 p{
-    width: 40svw;
-    height: auto;
-    margin-left: 35px;
     font-size: calc((1.953125svw + 3.00480769svh)/2.3);
-    margin-bottom: 0;
-    margin-top: 0;
 }
-iframe{
-    margin-left: 35px;
-    margin-top: 5svh;
-    width: 40svw;
-    height: auto
+span{
+    color: #B8DAE7;
 }
-img{
+#sport-1{
     position: absolute;
-    right: 0px;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 100svh;
-    z-index: -100;
-    width: 95svw;
+    left: -100svw;
+    top: 20svh;
 }
-#sport-name-1{
+#sport-2{
     position: absolute;
-    bottom: 205svw;
-    transform: translateY(-50%);
+    left: 0svw;
+}
+#sport-3{
+    position: absolute;
+    left: 100svw;
+    top: 20svh;
+}
+#bottom{
+    position: absolute;
+    display: flex;
+    gap: 10svw;
+    bottom: 8svh;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
 }

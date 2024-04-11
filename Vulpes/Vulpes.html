@@ -6,27 +6,7 @@
     <title>Vulpes</title>
     <link href='https://fonts.googleapis.com/css?family=Koh Santepheap' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/7ccbe089e6.js" crossorigin="anonymous"></script>
-    <script>
-        if (window.innerWidth > 340 && screen.width > 900) {
-            let scriptElement = document.createElement('script');
-            scriptElement.src = 'Vulpes-Desktop.js';
-            document.head.appendChild(scriptElement);
-
-            let linkElement = document.createElement('link');
-            linkElement.rel = 'stylesheet';
-            linkElement.href = 'Vulpes-Desktop.css';
-            document.head.appendChild(linkElement);
-        } else if (screen.width < 900 || window.innerWidth < 340) {
-            let scriptElement = document.createElement(`script`);
-            scriptElement.src = 'Vulpes-Mobile.js';
-            document.head.appendChild(scriptElement);
-
-            let linkElement = document.createElement('link');
-            linkElement.rel = 'stylesheet';
-            linkElement.href = 'Vulpes-Mobile.css';
-
-    }
-    </script>
+    <link rel="stylesheet" href="Vulpes-Desktop.css">
 </head>
 <body>
     <header>
@@ -56,7 +36,7 @@
         </section>
         <section id="wrap-dot-4" class="wrap-dot">
             <div class="dot" id="dot-4"></div>
-            <a href="">
+            <a href="Sport.HTML">
                 <h2>
                     Sport
                 </h2>
@@ -93,5 +73,6 @@
         <a href="/Group-project/Group-Project/index.html" id="arrow-back-wrap">
             <i class="fa-solid fa-arrow-right fa-rotate-180 fa-2xl" style="color: #e1e1e1;" id="arrow-back"></i>
         </a>
+        <script src="Vulpes-Desktop.js"></script>
 </body>
 </html>
